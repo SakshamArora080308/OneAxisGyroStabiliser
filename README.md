@@ -24,4 +24,4 @@ I plan to revisit this project once I gather more electronic supplies, such as a
 ## HELPING HANDS 
 Reddit and YouTube helped me greatly to visualise what I had to do. Reddit users helped me make the servo rotation more precise as the servo was not reaching a full 180 degrees at the beginning.
 ## END
-Unfortunately, the code for this project got deleted as I had not saved it and my laptop rebooted. However, I did not give up and wrote the code again in a much neater and understandable format. The code can be found in code.ino file. The related pictures and videos can be found in the project_Demo_Links file in this repository.
+Unfortunately, the code for this project got deleted as I had not saved it and my laptop rebooted. However, I did not give up and wrote the code again in a much neater and understandable format. The code can be found in OneAxisGyroCode.ino file. The pin assignment may be incorrect as I had to check it from a blurred photo. The related pictures and videos can be found in the project_Demo_Links file in this repository.
