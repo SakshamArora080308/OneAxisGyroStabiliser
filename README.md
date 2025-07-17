@@ -1,5 +1,5 @@
 # OneAxisGyroStabiliser
-One Axis Gyroscopic Stabiliser (code lost due to an unexpected error in the laptop) 
+One Axis Gyroscopic Stabiliser
 ## Brief
 A one-axis gyroscopic stabiliser balances an object despite changes in the pitch. The pitch changes can also be gathered from the serial monitor and a graph can be plotted to see how the pitch varied in a specific interval of time. The project uses an MPU6050 sensor to detect and counteract tilt.
 ## Connection To Aerospace 
@@ -18,7 +18,10 @@ In this stage, I added an LCD to display the pitch in real time, and I added a t
 In this project, I learnt various useful functions. Firstly, I learnt how to use the ```map()``` function which made programming easier since I didn't have to manually do the maths for the linear interpolation. 
 Secondly, I learnt how to handle sensor noises; The sensor values fluctuated between 0.8 and -0.8 due to the inaccuracy of the sensor, so I added a code stating that ```if(pitch>=-0.8 && pitch<=0.8){ pitch=0;}``` so that the pitch would be exactly 0 at level. 
 I also learnt about the ```millis()``` function since I wanted the LCD to display the data every 500ms to reduce the flickering effect while not compromising on the reaction time of the servo. 
+Lastly, I learnt to use the ```myServo.writeMicroseconds``` function which makes the servo rotation much more accurate. 
 ## Future Scope 
 I plan to revisit this project once I gather more electronic supplies, such as additional servos to expand this project into the 2nd and 3rd axis, so that it could also measure and counteract roll and yaw. I also plan to make a blackbox-like effect by exporting the serial monitor data into Microsoft Excel and graphing the pitch at different times and detecting when certain switches were pressed, or when the buzzer goes off 
+## HELPING HANDS 
+Reddit and YouTube helped me greatly to visualise what I had to do. Reddit users helped me make the servo rotation more precise as the servo was not reaching a full 180 degrees at the beginning.
 ## END
-Unfortunately, the code for this project got deleted as I had not saved it and my laptop rebooted. However, the related pictures and videos can be found in the other file in this repository
+Unfortunately, the code for this project got deleted as I had not saved it and my laptop rebooted. However, I did not give up and wrote the code again in a much neater and understandable format. The code can be found in code.ino file. The related pictures and videos can be found in the project_Demo_Links file in this repository.
