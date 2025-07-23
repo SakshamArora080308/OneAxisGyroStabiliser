@@ -21,7 +21,7 @@ I also learnt about the ```millis()``` function since I wanted the LCD to displa
 Lastly, I learnt to use the ```myServo.writeMicroseconds``` function which makes the servo rotation much more accurate. 
 ## Future Scope 
 I plan to revisit this project once I gather more electronic supplies, such as additional servos to expand this project into the 2nd and 3rd axis, so that it could also measure and counteract roll and yaw. I also plan to make a blackbox-like effect by exporting the serial monitor data into Microsoft Excel and graphing the pitch at different times and detecting when certain switches were pressed, or when the buzzer goes off 
-## HELPING HANDS 
+## Helping Hands
 Reddit and YouTube helped me greatly to visualise what I had to do. Reddit users helped me make the servo rotation more precise as the servo was not reaching a full 180 degrees at the beginning.
 ## END
 Unfortunately, the code for this project got deleted as I had not saved it and my laptop rebooted. However, I did not give up and wrote the code again in a much neater and understandable format. The code can be found in OneAxisGyroCode.ino file. The pin assignment may be incorrect as I had to check it from a blurred photo. The related pictures and videos can be found in the project_Demo_Links file in this repository.
